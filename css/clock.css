@@ -1,0 +1,49 @@
+ * {
+	padding: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	background: #A52A2A;
+	height: 100%;
+}
+#clock {
+	height: 520px;
+	width: 520px;
+	background: #333;
+	margin: 50px auto 0;
+	position: relative;
+	border: 2px solid lightgray;
+}
+
+#year {
+	text-align: center;
+	padding-top: 50px;
+}
+#time {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#countDown {
+	padding-top: 80px;
+	text-align: center;
+	font-weight: bold;
+	color: #ccc;
+}
+#countDown strong{
+	color: #fef58c;
+}
+#date {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+	color: #fc3;
+}
+#date p {
+	display: inline-block;
+}
+#date p span {
+	color: #fff58d;
+} 

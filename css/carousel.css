@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #9c58b6;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0;
+}
+.play {
+	width: 400px;
+	height: 430px;
+	margin: 50px auto;
+	background: lightgray;
+	font-size: 12px Arial;
+}
+/*大图部分*/
+.big_pic {
+	width: 400px;
+	height: 320px;
+	border-bottom: 1px solid #ccc;
+	background: #222;
+	position: relative;
+	overflow: hidden;
+}
+.big_pic li { 
+	width: 400px; 
+	height: 320px; 
+	overflow: hidden; 
+	position: absolute; 
+	top: 0;
+ 	left: 0; 
+ 	z-index: 0; 
+ 	background:  no-repeat center center; 
+ }
+
+ /*左右区域*/
+ .mark_left {
+	width: 200px;
+	height: 320px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	opacity: 0.5;
+	/*background: red;*/
+ }
+ .mark_right {
+ 	width: 200px;
+ 	height: 320px;
+ 	position: absolute;
+ 	left: 200px;
+ 	top: 0;
+ 	z-index: 100;
+ 	opacity: 0.5;
+ 	/*background: green;*/
+ }
+ /*左右箭头*/
+ .big_pic .prev {
+ 	width: 60px;
+ 	height: 60px;
+ 	background: url(../img/btn.gif) no-repeat;
+ 	position: absolute;
+ 	top: 130px;
+ 	left: 20px;
+ 	z-index: 101;
+ 	cursor: pointer;
+ 	opacity: 0;
+ }
+ .big_pic .next {
+ 	width: 60px;
+ 	height: 60px;
+ 	background: url(../img/btn.gif) no-repeat 0 -60px;
+ 	position: absolute;
+ 	top: 130px;
+ 	right: 20px;
+ 	z-index: 101;
+ 	cursor: pointer;
+	opacity: 0;
+ }
+ /*文字*/
+ .big_pic .text {
+ 	position: absolute;
+ 	left: 10px;
+ 	top: 296px;
+ 	color: #ccc;
+ 	z-index: 100;
+ }
+ .big_pic .length {
+ 	position: absolute;
+ 	right: 10px;
+ 	bottom: 2px;
+ 	color: #ccc;
+ 	z-index: 100;
+
+ }
+ .big_pic .bg {
+ 	width: 400px;
+ 	height: 25px;
+ 	background: #1889c5;
+ 	position: absolute;
+ 	z-index: 99;
+ 	left: 0;
+ 	bottom: 0;
+ 	opacity: 0.2;
+ }
+
+ /*小图*/
+ .small_pic {
+ 	width: 380px;
+ 	height: 94px;
+ 	position: relative;
+ 	top: 7px;
+ 	left: 10px;
+ 	/*background: red;*/
+ 	overflow: hidden;
+ }
+.small_pic ul {
+	height: 94px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*background: green;*/
+	cursor: pointer;
+}
+.small_pic li {
+	width: 120px;
+	height: 94px;
+	float: left;
+	padding-right: 10px;
+	opacity: 0.5;
+}
+.small_pic img {
+	width: 120px;
+	height: 94px;
+	bottom: 0;
+}

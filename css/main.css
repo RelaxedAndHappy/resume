@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+/*头*/
+.container{
+	position: fixed;
+	top: 0;
+	height: 52px;
+	background: #42474b;
+	color: white;
+	width: 100%;
+}
+.container .option {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	z-index: 0;
+}
+.container .option a {
+	padding: 0 95px;
+	color: white;
+	font-size: 14px;
+	line-height: 52px;
+	cursor: pointer;
+	z-index: 1;
+	text-decoration: none;
+}
+/*简介*/
+section.intro {
+	height: auto;
+	width: 100%;
+	background: #1889c5;
+	padding: 100px 0 100px;
+}
+.centent {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
+.centent .left{
+	/*background: red;*/
+	list-style-type: none;
+	width: 40%;
+	float: left;
+}
+
+.centent .left .myLogo {
+	border-radius: 100px;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 25px auto;
+
+}
+.centent .left .left-text {
+	padding-top: 10px;
+	width: 290px;
+	margin: 15px auto;
+	padding: 43px 0;
+}
+.centent .left .left-text li {
+	list-style-type: none;
+	height: 30px;
+	color: white;
+}
+.centent .left .left-text li span {
+	display: inline-block;
+	text-align: right;
+	width: 70px;
+}
+.centent .left .left-text a {
+	color: white;
+	text-decoration: none;
+}
+.centent .right {
+	float: right;
+	/*background: green;*/
+	width: 60%;
+}
+.centent .right p {
+	color: white;
+	line-height: 26px;
+}
+.centent .right p:first-child{
+	margin-top: 288px;
+	margin-bottom: 26px;
+}
+
+/*技能*/
+.skill {
+	height: 100%
+	width: 100%;
+	background: #9c58b6;
+	color: #ffffff;
+	padding: 80px 0 200px;
+}
+.skill .skill-title {
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 500;
+}
+.skill .skill-option {
+	width: 80%;
+	margin: auto;
+	/*background: red;*/
+}
+.skill .skill-option ul {
+	display: inline-block;
+	height: auto;
+	width: 210px;
+	margin: 50px 50px 0 70px;
+	border: 2px solid #ffffff;
+	font-size: 20px;
+	font-family: "Microsoft YaHei light";
+	text-align: center;
+	vertical-align: top;
+}
+.skill .skill-option ul li {
+	list-style-type: none;
+	height: 36px;
+	line-height:36px;
+}
+.skill .skill-option ul li:first-child {
+	background: pink;
+	color: #333;
+}
+.skill .skill-option .skill-demo a{
+	color: white;
+	text-decoration: none;
+}
+/*工作经历*/
+.workExp {
+	height: 100%;
+	width: 100%;
+	background-color: #26b1b6;
+	color: #e7e7e7;
+	padding: 80px 0 160px;
+}
+.workExp .workExp-title,.workExp-main {
+	width: 80%;
+	height: 100%;
+	z-index: 0;
+	margin: 0 auto;
+}
+.workExp .workExp-title {
+	width: 300px;
+	text-align: center;
+	font-weight: 500px;
+	font-size: 35px;
+}
+.workExp .workExp-main {
+	margin: 50px 0 0 60px;
+}
+.workExp .workExp-main .workExp-timeline {
+	margin-left: 280px;
+	font-size: 25px;
+}
+.workExp .workExp-main .workExp-timeline li {
+	display: inline-block;
+	list-style-type: none;
+}
+.workExp .workExp-main .workExp-timeline li:last-child {
+	margin-left: 110px;
+}
+.workExp .workExp-main .timeline {
+	height: 27px;
+	width: 868px;
+	margin-left: 130px;
+}
+.workExp .workbox {
+	margin-left: 270px;
+}
+.workExp .workbox li {
+	display: inline-block;
+	width: 320px;
+	vertical-align: top;
+}
+.workExp .workbox li span {
+	display: block;
+	padding: 5px;
+}
+.workExp .workbox li .work-company{
+	font-size: 24px;
+}
+.workExp .workbox li .work-position {
+	font-size: 20px;
+}
+  /*页脚*/
+footer {
+	width: 100%;
+	background-color: #ed6461;
+	color: lightgray;
+}
+footer div {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+footer div .item {
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 5px;
+}
+footer div .item table td {
+	width: 90%;
+}
+footer div .item table .item-title{
+	height: 80px;
+	width: 30px;
+	padding: 10px;
+}
+footer .email {
+	float: right;
+	width: 45%;
+}
+footer .email p{
+	text-align: center;
+	width: 100%;
+	padding: 50px 0;
+	color: white;
+}
+footer .email p a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+footer .email p a:hover {
+	color: yellow;
+}
+.container .option a:hover {
+	color: #999;
+}
+.intro li a:hover {
+	border-bottom: 2px solid white;
+}
+.skill .skill-demo li:hover {
+	background-color: pink;
+}
